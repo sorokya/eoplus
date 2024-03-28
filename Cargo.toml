@@ -1,9 +1,16 @@
 [package]
 name = "eoplus"
 version = "1.0.0-RC1"
+authors = ["Richard Leek <richard@richardleek.com>"]
+description = "A lexer and parser for Endless Online EO+ scripts"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+rust-version = "1.61.0"
+license = "MIT"
+repository = "https://github.com/sorokya/eoplus"
+readme = "README.md"
+exclude = [
+    ".github",
+]
 
 [dependencies]
 antlr-rust = "=0.3.0-beta"
